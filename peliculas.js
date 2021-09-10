@@ -1,4 +1,3 @@
-//
 export function peliculas (api1){    
         
     fetch(api1).then((resultado) => {
