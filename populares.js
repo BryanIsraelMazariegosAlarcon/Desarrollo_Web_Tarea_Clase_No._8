@@ -1,4 +1,4 @@
-export function serie (api1){
+export function populares (api1){
     fetch(api1).then((resultado) => {
         if (resultado.status == 200) {
             resultado.json().then((datos) => {

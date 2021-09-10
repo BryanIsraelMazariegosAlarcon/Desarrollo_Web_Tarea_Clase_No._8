@@ -3,11 +3,11 @@ const raiz = "https://api.themoviedb.org/3/";
 const idioma = "&language=es-ES";
 const generos = "genre/movie/list?";
 const pelicula = "discover/movie?";
-const populares = "trending/tv/day?";
+const populares1 = "trending/tv/day?";
 
 var parametro1 = raiz + generos + api + idioma;
 var parametro2 = raiz + pelicula + api + idioma;
-var parametro3 = raiz + populares + api + idioma;
+var parametro3 = raiz + populares1 + api + idioma;
 
 import {
     categorias
@@ -27,7 +27,7 @@ value.addEventListener("change",()=>peliculas(parametro2 + "&with_genres=" + val
 
 import 
 {
-    serie
-} from "./serie.js";
+    populares
+} from "./populares.js";
 
-document.getElementById("boton").onclick = () => {serie(parametro3)};
+document.getElementById("boton").onclick = () => {populares(parametro3)};
