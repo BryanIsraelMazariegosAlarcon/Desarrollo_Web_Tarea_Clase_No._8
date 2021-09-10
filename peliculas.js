@@ -14,4 +14,4 @@ export function peliculas (api1){
             });
         }
     });
-}
+} 
