@@ -31,4 +31,3 @@ import
 } from "./serie.js";
 
 document.getElementById("boton").onclick = () => {serie(parametro3)};
-
