@@ -1,10 +1,8 @@
-export function peliculas (api1){    
-        
+export function peliculas (api1){            
     fetch(api1).then((resultado) => {
         if (resultado.status == 200) {
             resultado.json().then((datos) => {
                 var html = "";
-
                 datos.results.forEach(gen => {
                     html += `<div>
                             <p>${gen.title}</p>
