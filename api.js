@@ -30,4 +30,4 @@ import
     populares
 } from "./populares.js";
 
-document.getElementById("boton").onclick = () => {populares(parametro3)}; 
+document.getElementById("boton").onclick = () => {populares(parametro3)};
